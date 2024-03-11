@@ -1,0 +1,17 @@
+[package]
+name = "ni-sync-rs"
+version = "23.8.0"
+links = "ni-sync"
+license = "MIT"
+description = "Rust bindings for the NI Sync API"
+keywords = ["ni", "ffi"]
+categories = ["external-ffi-bindings"]
+repository = "https://github.com/bwillenborg/ni-sync-rs"
+website = "https://github.com/bwillenborg/ni-sync-rs"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.60"
+
+
